@@ -4,7 +4,7 @@ You start by waking up in the morning.
  - Hygiene, then eat breakfast, head to work.
   <!-- () On the way to work, you see a person with a flat tire. -->
    
-   <!-- - You decided to help. You grab you tire changing kit from your trunk  and proceed to lend a hand. It turns out that they work at the same company you do. They thank you and you resume your commute to work, on time. -->
+   <!-- - You decided to help. You grab you tire changing kit from your trunk and proceed to lend a hand. It turns out that they work at the same company you do. They thank you and you resume your commute to work, on time. -->
      <!-- - You attend the morning meeting at work.  They introduce the new manager and it turns out it is the person you assisted with the tire. After the meeting you reintroduce yourself to your new manager.
 
      () After a quick two months, your manager likes you so much, they decide to make the lead on a big project you.  Yourself and everyone knows you aren't quite ready for the big project your manager wants you to helm.
