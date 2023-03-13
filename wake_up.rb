@@ -18,6 +18,7 @@ choice_3 = gets.chomp
     if (choice_3 == "1")
         p "Despite your current abilities, you step up to the challenge and accept the task. After meeting the team and getting all of the specifics, you learn that the client wants your company to market a new wonder drug. The drug is said to be able to repair the effects of neurological degeneration. The drug has been released and is considered to be a success worldwide. People who have used the drug are now experiencing life in a brand new way. One morning, you turn on the news and see many reports of people gathering in all manner of spaces, performing the hit 90s song The Macarena. They are causing nationwide disruptions in all aspects. The reports are finding that the people performing all have taken your client's wonder drug."
 p 'Since you were the head of the initial PR run, your company again tasks you with spinning the narrative.'
+    else p 'Invalid response'
     end
 p "Type 1: Take drug to prove it is safe or 2: Try another approach."
 choice_4 = gets.chomp
@@ -26,6 +27,7 @@ choice_4 = gets.chomp
         
         elsif (choice_4 == "2")
             p "You cannot figure out how to positively spin the story. Another company figures out how what you couldn't and buys your previous client some time to figure out a cure. Your company subsequently goes bankrupt.  You now find yourself, ironically, performing the Macarena in the subway for money, just to get by. (end)"
+        else p 'Invalid response'
         end 
 
         elsif (choice_3 == "2")
@@ -42,7 +44,9 @@ choice_5 = gets.chomp
             p "You decided to come clean and tell them that you didn't stop because you're too embarassed to admit that you don't know how to change a tire. They tell you that you're a jerk and walk away.  You have now earned a lifelong workplace enemy. (end)"
         elsif (choice_5 == "2")
             p "You decided to lie. You play aloof and give him a quizzical look.  You tell him that it wasn't you. He looks outside at your new BMW and then glances at the BMW keys you have lying on the table. He clicks his tongue, then simply nods and replies with 'Sure. Okay.', before walking away. On your way home from work, in your new BMW, you hear this clicking noise coming from the trunk, but you ignore it for now. After parking inside your garage, you head inside and go about the rest of your day, until you remember you left something in the car. When you go back to the garage, you notice your trunk is open. Thinking the trunk wasn't closed all of the way, you believe that was the clicking noise you must've heard. Later that night, you're eating dinner while watching the latest episoide of The Last of Us. You hear a faintly clicking noise and you can't tell if its coming from the TV, so you pause the show.  You don't hear anything anymore, so you resume the show.  But, the noise comes back, louder.  You pause again, and the clicking stops.  Resuming the show one more time, you hear the noise again coming from directly over your shoulder.  You turn and experience a blunt impact. Dazed, through blurry vision, you see a familiar image holding what looks to be a spare BMW tire. The last thing you hear is one more click. (end)"
+        else p 'Invalid response'
         end
+    else p 'Invalid response'
     end
     # important end 
 # # ------------- Finish story 2
@@ -64,5 +68,7 @@ choice_7 = gets.chomp
                 p "Your friend, trusting your judgement, decides the man with the curiously large amount of pills in his backseat is on the up and up and lets him go. Two months later, you and your friend, recently fired from the DEA, sit on the couch and turn on the TV. You both see many reports of the city being flooded with illegal drugs. The symptoms of which, cause the users uncontrollable body spasms that are strangely reminiscent of an obnoxious old song.  They flash the pills on screen and you remember seeing in them in the man's backseat, two months ago. (end)"
         else p 'Invalid Response'
         end
+    else p 'Invalid response'
     end
+else p 'Invalid response'
 end
